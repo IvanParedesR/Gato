@@ -12,7 +12,7 @@ tic.tac.toe <- function(name="Name", mode=0, type=0){
   k <<- 1 ; r <<- 0
   
   #########################
-  # Plot Tic-Tac-Toe form #
+  # Gato marco #
   #########################
   
   image(1:3, 1:3, matrix(sample(9), 3, 3), asp=c(1, 1), 
